@@ -1,0 +1,37 @@
+body{
+    background: url(img/my.jpg) no-repeat center center/ cover
+    ;
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container{
+border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+.timer{
+font-size: 4rem;
+}
+button i{
+    font-size: 2rem;
+}
+
+#reset{
+    color: white;
+    background: purple;
+    border-radius: 20px;
+    width: 50px;
+   
+}
+#pause{
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    width: 50px;
+
+}
